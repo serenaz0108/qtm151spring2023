@@ -130,7 +130,8 @@ upper case and lower case letters
 -- Write your own code
 
 
-SELECT COUNT (DISTINCT "driverId") AS num_driverId
+SELECT
+COUNT (DISTINCT "driverId") AS num_driverId
 FROM drivers;
 -- SQLBook: Markup
 <font size = "5">
